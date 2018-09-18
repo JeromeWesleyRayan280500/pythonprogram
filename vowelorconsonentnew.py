@@ -1,6 +1,6 @@
 l=input()
 if l in ('a','e','i','o','u'):
-    print("%s vowel."%1)
+    print("%s vowel.")
 
 else:
-    print("%s consonent.:"%1)
+    print("%s consonent.")
