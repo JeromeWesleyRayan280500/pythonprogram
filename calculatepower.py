@@ -3,6 +3,6 @@ def power(base,exp):
         return(base)
     if(exp!=1):
         return(base*power(base,exp-1))
-base=int(input("Enter base: "))
-exp=int(input("Enter exponential value: "))
-print("Result:",power(base,exp))
+base=int(input())
+exp=int(input())
+print(power(base,exp))
